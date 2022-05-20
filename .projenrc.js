@@ -1,8 +1,9 @@
 const { awscdk } = require('projen');
 const project = new awscdk.AwsCdkTypeScriptApp({
-  cdkVersion: '2.1.0',
+  cdkVersion: '2.24.1',
   defaultReleaseBranch: 'main',
   name: 'ecsdemo-backend-crystal-cdk',
+  appEntrypoint: 'bin/app.ts',
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */

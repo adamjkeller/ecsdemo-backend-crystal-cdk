@@ -17,7 +17,7 @@ const devEnv = {
 
 const app = new App();
 
-new MyStack(app, 'ecsdemo-backend-crystal-cdk-dev', { env: devEnv });
-// new MyStack(app, 'ecsdemo-backend-crystal-cdk-prod', { env: prodEnv });
+new MyStack(app, 'ecsdemo-backend-nodejs-cdk-dev', { env: devEnv });
+// new MyStack(app, 'ecsdemo-backend-nodejs-cdk-prod', { env: prodEnv });
 
 app.synth();
